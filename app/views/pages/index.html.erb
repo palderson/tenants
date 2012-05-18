@@ -1,23 +1,34 @@
-<h1>Listing pages</h1>
-
-<table>
-  <tr>
-    <th>Name</th>
-    <th></th>
-    <th></th>
-    <th></th>
-  </tr>
-
-<% @pages.each do |page| %>
-  <tr>
-    <td><%= page.name %></td>
-    <td><%= link_to 'Show', page %></td>
-    <td><%= link_to 'Edit', edit_page_path(page) %></td>
-    <td><%= link_to 'Destroy', page, confirm: 'Are you sure?', method: :delete %></td>
-  </tr>
-<% end %>
-</table>
-
+<center>
+	<h3>We want to rent your apartment. But don't worry, because...<h3>
+</center>
 <br />
-
-<%= link_to 'New Page', new_page_path %>
+<div class='hero-unit'>
+	<div style='center'>
+   		<h3>We are</h3>
+   		<h1>Awesome</h1>
+   		<div style='padding:0px 700px'>	
+			<h3>tenants!<h3>
+		</div>			
+	</div>
+</div>	
+<center>
+	<h3>Let us introduce ourselves<h3>
+</center>
+<br />
+<div class='row'>
+	<div class='span4'>
+		<center>
+			<h2>Pete</h2>
+		</center>
+	</div>
+	<div class='span4'>
+		<center>
+			<h2>Jess</h2>
+		</center>
+	</div>
+	<div class='span4'>
+		<center>
+			<h2>Dave</h2>
+		</center>
+	</div>
+</div>		
